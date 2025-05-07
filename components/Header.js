@@ -1,110 +1,58 @@
-// import Link from "next/link";
-// import { useRouter } from "next/router";
-// import { useState } from "react";
-// import { FaBars } from "react-icons/fa"; // Importing three dots icon
-
-// export default function Header() {
-//   const router = useRouter();
-//   const [isOpen, setIsOpen] = useState(false); // State for mobile menu
-
-//   // Function to check if the link is active
-//   const isActive = (path) => router.pathname === path ? "text-blue-400 font-bold" : "text-white";
-
-//   return (
-//     <header className="bg-blue-900 text-white fixed top-0 left-0 w-full z-50 shadow-md">
-//       <div className="container mx-auto flex justify-between items-center p-4">
-//         {/* Logo */}
-//         <h1 className="text-2xl font-bold">your TechElevate</h1>
-
-//         {/* Desktop Navigation */}
-//         <nav className="space-x-6 hidden md:flex">
-//           <Link href="/" className={`hover:text-gray-300 ${isActive("/")}`}>Home</Link>
-//           <Link href="/about" className={`hover:text-gray-300 ${isActive("/about")}`}>About</Link>
-//           <Link href="/services" className={`hover:text-gray-300 ${isActive("/services")}`}>Services</Link>
-//           <Link href="/pricing" className={`hover:text-gray-300 ${isActive("/pricing")}`}>Pricing</Link>
-//           <Link href="/contact" className={`hover:text-gray-300 ${isActive("/contact")}`}>Contact</Link>
-//         </nav>
-
-//         {/* Mobile Menu Button (Three Dots) */}
-//         <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white text-2xl">
-//           <FaBars />
-//         </button>
-//       </div>
-
-//       {/* Mobile Menu Dropdown */}
-//       {isOpen && (
-//         <div className="md:hidden bg-blue-800 text-white absolute top-16 left-0 w-full p-4 shadow-lg">
-//           <nav className="flex flex-col space-y-4 text-center">
-//             <Link href="/" className={`hover:text-gray-300 ${isActive("/")}`} onClick={() => setIsOpen(false)}>Home</Link>
-//             <Link href="/about" className={`hover:text-gray-300 ${isActive("/about")}`} onClick={() => setIsOpen(false)}>About</Link>
-//             <Link href="/services" className={`hover:text-gray-300 ${isActive("/services")}`} onClick={() => setIsOpen(false)}>Services</Link>
-//             <Link href="/pricing" className={`hover:text-gray-300 ${isActive("/pricing")}`} onClick={() => setIsOpen(false)}>Pricing</Link>
-//             <Link href="/contact" className={`hover:text-gray-300 ${isActive("/contact")}`} onClick={() => setIsOpen(false)}>Contact</Link>
-//           </nav>
-//         </div>
-//       )}
-//     </header>
-//   );
-// }
-
-
-
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import { FaBars } from "react-icons/fa"; // Three dots icon
-import Image from "next/image"; // Next.js Image component
+import { FaBars } from "react-icons/fa"; 
+import Image from "next/image";
+import { ArrowDownTrayIcon } from '@heroicons/react/24/solid';
 
 export default function Header() {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
 
-  // Function to check if the link is active
-  const isActive = (path) => router.pathname === path ? "text-blue-400 font-bold" : "text-white";
+  // Function to determine active link styles
+  const linkStyle = (path) =>
+    router.pathname === path
+      ? "bg-[#E1E0F9] text-black font-semibold px-3 h-14 w-32 py-3 text-center rounded-t-3xl"
+      : "text-gray-700 px-3 py-3";
 
   return (
-    <header className="bg-blue-900 text-white fixed top-0 left-0 w-full z-50 shadow-md">
-      <div className="container mx-auto flex justify-between items-center p-4">
-        
-        {/* Logo (Replace 'your-logo.png' with your actual logo image) */}
-        <Link href="/">
-          <Image 
-            src="/techbite.png"  // Replace with your actual logo path in the 'public' folder
-            alt="Company Logo"
-            width={120}  // Adjust width as needed
-            height={30}  // Adjust height as needed
-            priority
-            className="cursor-pointer"
-          />
-        </Link>
-
-        {/* Desktop Navigation */}
-        <nav className="space-x-6 hidden md:flex">
-          <Link href="/" className={`hover:text-gray-300 ${isActive("/")}`}>Home</Link>
-          <Link href="/about" className={`hover:text-gray-300 ${isActive("/about")}`}>About</Link>
-          <Link href="/services" className={`hover:text-gray-300 ${isActive("/services")}`}>Services</Link>
-          <Link href="/pricing" className={`hover:text-gray-300 ${isActive("/pricing")}`}>Pricing</Link>
-          <Link href="/contact" className={`hover:text-gray-300 ${isActive("/contact")}`}>Contact</Link>
-        </nav>
-
-        {/* Mobile Menu Button (Three Dots) */}
-        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white text-2xl">
-          <FaBars />
-        </button>
+    <header className="flex justify-between items-center px-8 pt-6 bg-[#f9f9f9] shadow-sm">
+      <div className="w-32 h-14">
+        <Image
+          src="/logo.png"
+          alt="ARCHAI Logo"
+          width={128}
+          height={40}
+          priority
+        />
       </div>
 
-      {/* Mobile Menu Dropdown */}
-      {isOpen && (
-        <div className="md:hidden bg-blue-800 text-white absolute top-16 left-0 w-full p-4 shadow-lg">
-          <nav className="flex flex-col space-y-4 text-center">
-            <Link href="/" className={`hover:text-gray-300 ${isActive("/")}`} onClick={() => setIsOpen(false)}>Home</Link>
-            <Link href="/about" className={`hover:text-gray-300 ${isActive("/about")}`} onClick={() => setIsOpen(false)}>About</Link>
-            <Link href="/services" className={`hover:text-gray-300 ${isActive("/services")}`} onClick={() => setIsOpen(false)}>Services</Link>
-            <Link href="/pricing" className={`hover:text-gray-300 ${isActive("/pricing")}`} onClick={() => setIsOpen(false)}>Pricing</Link>
-            <Link href="/contact" className={`hover:text-gray-300 ${isActive("/contact")}`} onClick={() => setIsOpen(false)}>Contact</Link>
-          </nav>
-        </div>
-      )}
+      <nav className="hidden md:flex space-x-6 text-sm">
+        
+        <Link href="/" className={linkStyle("/")}>
+          Home
+        </Link>
+        <Link href="/about" className={linkStyle("/about")}>
+          About Us
+        </Link>
+        <Link href="/services" className={linkStyle("/services")}>
+          Services
+        </Link>
+        <Link href="/contact" className={linkStyle("/contact")}>
+          Connect Us
+        </Link>
+      </nav>
+
+      <div className="flex space-x-4 mb-4">
+        <a
+          href="/brochure.pdf"
+          download
+          className="bg-black text-white px-4 py-2 rounded-full text-sm flex items-center space-x-2"
+        >
+          <ArrowDownTrayIcon className="h-4 w-4" />
+          <span>Download Brochure</span>
+        </a>
+      </div>
     </header>
   );
 }
