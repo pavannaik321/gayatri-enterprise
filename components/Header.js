@@ -1,18 +1,15 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
-import { useState } from "react";
-import { FaBars } from "react-icons/fa"; 
+import { useRouter } from "next/router"; 
 import Image from "next/image";
 import { ArrowDownTrayIcon } from '@heroicons/react/24/solid';
 
 export default function Header() {
   const router = useRouter();
-  const [isOpen, setIsOpen] = useState(false);
 
   // Function to determine active link styles
   const linkStyle = (path) =>
     router.pathname === path
-      ? "bg-[#E1E0F9] text-black font-semibold px-3 h-14 w-32 py-3 text-center rounded-t-3xl"
+      ? "bg-red-100 text-black font-semibold px-3 h-14 w-32 py-3 text-center rounded-t-3xl"
       : "text-gray-700 px-3 py-3";
 
   return (
@@ -45,7 +42,7 @@ export default function Header() {
 
       <div className="flex space-x-4 mb-4">
         <a
-          href="/brochure.pdf"
+          href="/brocher/Brochure.pdf"
           download
           className="bg-black text-white px-4 py-2 rounded-full text-sm flex items-center space-x-2"
         >

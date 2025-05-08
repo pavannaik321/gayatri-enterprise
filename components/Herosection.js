@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 export default function Herosection() {
   return (
-    <section className="flex flex-col-reverse lg:flex-row items-center justify-between bg-[#E1E0F9] rounded-bl-[48px] rounded-br-[48px] px-8 py-16">
+    <section className="flex flex-col-reverse lg:flex-row items-center justify-between bg-red-100 rounded-bl-[48px] rounded-br-[48px] px-8 py-16">
     {/* Left Side */}
     <div className="lg:w-1/2">
     <h1 className="text-4xl md:text-6xl font-bold text-black mb-6">

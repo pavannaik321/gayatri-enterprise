@@ -4,6 +4,8 @@ import Image from 'next/image';
 import Header from '@/components/Header';
 import Herosection from '@/components/Herosection';
 import OurServiceSlider from '@/components/ourservicesslider';
+import Homeservices from '@/components/HomeServices';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -19,7 +21,7 @@ export default function Home() {
   {/* Left - Feature Cards */}
   <div className="space-y-6 w-full md:w-1/2">
     {/* Feature 1 */}
-    <div className="bg-white rounded-2xl p-6 flex items-start shadow-md">
+    <div className="bg-white rounded-2xl p-6 flex items-start shadow-md transition-transform transform  hover:scale-105">
       <div className="bg-red-100 text-red-600 p-3 rounded-full mr-4">
         🖌️
       </div>
@@ -30,7 +32,7 @@ export default function Home() {
     </div>
 
     {/* Feature 2 */}
-    <div className="bg-white rounded-2xl p-6 flex items-start shadow-md">
+    <div className="bg-white rounded-2xl p-6 flex items-start shadow-md transition-transform transform  hover:scale-105">
       <div className="bg-red-100 text-red-600 p-3 rounded-full mr-4">
         🚚
       </div>
@@ -41,7 +43,7 @@ export default function Home() {
     </div>
 
     {/* Feature 3 */}
-    <div className="bg-white rounded-2xl p-6 flex items-start shadow-md">
+    <div className="bg-white rounded-2xl p-6 flex items-start shadow-md transition-transform transform  hover:scale-105">
       <div className="bg-red-100 text-red-600 p-3 rounded-full mr-4">
         📦
       </div>
@@ -72,7 +74,7 @@ export default function Home() {
 </div>
 
 
-<section class="bg-[#E1E0F9] rounded-[48px] py-16 px-6 sm:px-10 lg:px-20">
+<section class="bg-red-100 rounded-[48px] py-16 px-6 sm:px-10 lg:px-20">
   <div class="max-w-7xl mx-auto text-center">
     <p class="text-sm font-semibold text-red-500 mb-2">OUR MACHINERY IN ACTION</p>
     <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
@@ -85,7 +87,7 @@ export default function Home() {
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
 
-      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left">
+      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
         <img src="/svg/img1.png" alt="Offset Printing Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
         <h3 class="text-lg font-semibold text-gray-900 mb-2">Offset Printing Machine</h3>
         <p class="text-sm text-gray-600">
@@ -94,7 +96,7 @@ export default function Home() {
       </div>
 
 
-      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left">
+      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
         <img src="/svg/img2.png" alt="Laser Printer" class="rounded-xl mb-4 object-cover w-full h-40" />
         <h3 class="text-lg font-semibold text-gray-900 mb-2">Laser Printing Unit</h3>
         <p class="text-sm text-gray-600">
@@ -103,7 +105,7 @@ export default function Home() {
       </div>
 
 
-      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left">
+      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
         <img src="/svg/img3.png" alt="UV Coating Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
         <h3 class="text-lg font-semibold text-gray-900 mb-2">UV Coating System</h3>
         <p class="text-sm text-gray-600">
@@ -112,7 +114,7 @@ export default function Home() {
       </div>
 
 
-      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left">
+      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
         <img src="/svg/img4.png" alt="Large Format Printer" class="rounded-xl mb-4 object-cover w-full h-40" />
         <h3 class="text-lg font-semibold text-gray-900 mb-2">Large Format Printer</h3>
         <p class="text-sm text-gray-600">
@@ -121,7 +123,7 @@ export default function Home() {
       </div>
 
 
-      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left">
+      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
         <img src="/svg/img5.png" alt="Binding Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
         <h3 class="text-lg font-semibold text-gray-900 mb-2">Perfect Binding Machine</h3>
         <p class="text-sm text-gray-600">
@@ -130,7 +132,7 @@ export default function Home() {
       </div>
 
 
-      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left">
+      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
         <img src="/svg/img6.png" alt="Automated Cutting Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
         <h3 class="text-lg font-semibold text-gray-900 mb-2">Precision Cutting Machine</h3>
         <p class="text-sm text-gray-600">
@@ -150,7 +152,8 @@ export default function Home() {
   </div>
 </section>
 <OurServiceSlider />
-
+<Homeservices />
+<Footer />
 
 
 
