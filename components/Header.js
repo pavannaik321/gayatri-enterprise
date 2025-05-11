@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { useRouter } from "next/router"; 
 import Image from "next/image";
-import { ArrowDownTrayIcon } from '@heroicons/react/24/solid';
+import { ArrowDownTrayIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { useState } from "react";
+
 
 export default function Header() {
   const router = useRouter();
-
+  const [isOpen, setIsOpen] = useState(false);
   // Function to determine active link styles
   const linkStyle = (path) =>
     router.pathname === path
@@ -40,7 +42,7 @@ export default function Header() {
         </Link>
       </nav>
 
-      <div className="flex space-x-4 mb-4">
+      <div className="hidden md:flex space-x-4 mb-4">
         <a
           href="/brocher/Brochure.pdf"
           download
@@ -50,6 +52,17 @@ export default function Header() {
           <span>Download Brochure</span>
         </a>
       </div>
+      {/* Mobile Toggle Button */}
+      <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden focus:outline-none mb-4"
+        >
+          {isOpen ? (
+            <XMarkIcon className="h-6 w-6 text-gray-800" />
+          ) : (
+            <Bars3Icon className="h-6 w-6 text-gray-800" />
+          )}
+        </button>
     </header>
   );
 }
