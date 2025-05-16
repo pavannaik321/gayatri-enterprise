@@ -63,6 +63,34 @@ export default function Header() {
             <Bars3Icon className="h-6 w-6 text-gray-800" />
           )}
         </button>
+        {/* Mobile Menu */}
+{isOpen && (
+  <div className="md:hidden absolute top-20 left-0 w-full bg-white shadow-md z-50">
+    <nav className="flex flex-col items-start space-y-8 px-6 py-4 text-sm">
+      <Link href="/" >
+        Home
+      </Link>
+      <Link href="/about" >
+        About Us
+      </Link>
+      <Link href="/services" >
+        Services
+      </Link>
+      <Link href="/contact" >
+        Connect Us
+      </Link>
+      <a
+        href="/brocher/Brochure.pdf"
+        download
+        className="flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-full text-sm mt-2"
+      >
+        <ArrowDownTrayIcon className="h-4 w-4" />
+        <span>Download Brochure</span>
+      </a>
+    </nav>
+  </div>
+)}
+
     </header>
   );
 }
