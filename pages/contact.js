@@ -1,15 +1,18 @@
 import Header from '@/components/Header';
+import Herosection from '@/components/Herosection';
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Footer from '@/components/Footer';
 
 export default function Contact() {
   return (
-    <>
-      
-
+    
+      <div className="min-h-screen bg-[#f9f9f9] flex flex-col">
+            {/* Header */}
+      <Header />
+      <Herosection />
       <div className="min-h-screen bg-gradient-to-br from-[#e0f7fa] to-[#fce4ec] p-6 md:p-16 text-gray-800">
-        <Header/>
+        
        
         <Head>
       
@@ -105,6 +108,6 @@ export default function Contact() {
         </motion.div>
         <Footer/>
       </div>
-    </>
+    </div>
   );
 }

@@ -45,8 +45,8 @@ export default function Homeservices() {
   return (
     <section className="py-20 px-4 bg-red-100 rounded-[48px] text-gray-900">
       <div className="max-w-7xl mx-auto text-center mb-12">
-        <p className="text-red-500 font-semibold mb-2">Our Services</p>
-        <h2 className="text-4xl font-extrabold">Top Print Solutions We Offer</h2>
+        <p className="text-red-500 font-semibold mb-2 bg-white">Our Services</p>
+        <h2 className="text-4xl font-extrabold bg-white" >Top Print Solutions We Offer</h2>
       </div>
 
       <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
