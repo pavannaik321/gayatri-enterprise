@@ -1,9 +1,6 @@
 'use client';
-import Header from '@/components/Header';
-import Herosection from '@/components/Herosection';
 import Image from 'next/image';
 import React from 'react';
-import Footer from '@/components/Footer';
 
 const services = [
   {
@@ -45,19 +42,19 @@ const services = [
   // New services added here
   {
     name: 'Visiting Card Printing',
-    image: '/services/visitingcard.jpg',
+    image: '/services/visiting-card.jpg',
     price: '₹450 / 100 pcs',
     minQty: 'Minimum order: 100 cards',
   },
   {
     name: 'Pen Printing',
-    image: '/services/penprint.png',
+    image: '/services/pen-printing.jpg',
     price: '₹20 / pen',
     minQty: 'Minimum order: 50 pens',
   },
   {
     name: 'Letter Head Printing',
-    image: '/services/letter-head.png',
+    image: '/services/letter-head.jpg',
     price: '₹10 / sheet',
     minQty: 'Minimum order: 100 sheets',
   },
@@ -69,31 +66,31 @@ const services = [
   },
   {
     name: 'Brochure Printing',
-    image: '/services/brochurepic.png',
+    image: '/services/brochure-printing.jpg',
     price: '₹5 / brochure',
     minQty: 'Minimum order: 100 brochures',
   },
   {
     name: 'Canvas Printing',
-    image: '/services/canvas-printing.png',
+    image: '/services/canvas-printing.jpg',
     price: '₹350 / canvas',
     minQty: 'Minimum order: 10 canvases',
   },
   {
     name: 'Pamphlet Printing',
-    image: '/services/pamphlets.avif',
+    image: '/services/pamphlet-printing.jpg',
     price: '₹3 / pamphlet',
     minQty: 'Minimum order: 200 pamphlets',
   },
   {
     name: 'Vinyl Printing',
-    image: '/services/Vinyl-printing.png',
+    image: '/services/vinyl-printing.jpg',
     price: '₹25 / sq ft',
     minQty: 'Minimum order: 50 sq ft',
   },
   {
     name: 'Envelope Printing',
-    image: '/services/envelope-printing.avif',
+    image: '/services/envelope-printing.jpg',
     price: '₹10 / envelope',
     minQty: 'Minimum order: 100 envelopes',
   },
@@ -105,7 +102,7 @@ const services = [
   },
   {
     name: 'Sticker Printing',
-    image: '/services/sticker-printing.png',
+    image: '/services/sticker-printing.jpg',
     price: '₹1.5 / sticker',
     minQty: 'Minimum order: 200 stickers',
   },
@@ -141,7 +138,7 @@ const services = [
   },
   {
     name: 'Frosted Film Printing',
-    image: '/services/frosted-film.png',
+    image: '/services/frosted-film.jpg',
     price: '₹50 / sq ft',
     minQty: 'Minimum order: 10 sq ft',
   },
@@ -165,7 +162,7 @@ const services = [
   },
   {
     name: 'Eco & Latex Printing',
-    image: '/services/eco-latex-printing.png',
+    image: '/services/eco-latex-printing.jpg',
     price: '₹30 / sq ft',
     minQty: 'Minimum order: 50 sq ft',
   },
@@ -183,13 +180,13 @@ const services = [
   },
   {
     name: 'Bill Book Printing',
-    image: '/services/bill-book-printing.png',
+    image: '/services/bill-book-printing.jpg',
     price: '₹40 / bill book',
     minQty: 'Minimum order: 20 bill books',
   },
   {
     name: 'Manuals Printing',
-    image: '/services/manuals-printing.png',
+    image: '/services/manuals-printing.jpg',
     price: '₹50 / manual',
     minQty: 'Minimum order: 50 manuals',
   },
@@ -209,16 +206,11 @@ const services = [
 
 export default function servicepage() {
   return (
-    
-    
     <section className="py-20 px-4 bg-red-100 rounded-[48px] text-gray-900">
       <div className="max-w-7xl mx-auto text-center mb-12">
-        <Header />
-        <Herosection/>
         <p className="text-red-500 font-semibold mb-2">Our Services</p>
         <h2 className="text-4xl font-extrabold">Top Print Solutions We Offer</h2>
       </div>
-     
 
       <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
         {services.map((service, idx) => (
@@ -249,9 +241,6 @@ export default function servicepage() {
 
       {/* Call to Action */}
       <div className="mt-14 text-center">
-        
-
-        
         <a
           href="#demo"
           className="inline-flex items-center justify-center px-6 py-3 bg-red-500 text-white rounded-full shadow-lg hover:bg-red-600 transition"
@@ -261,8 +250,6 @@ export default function servicepage() {
           </svg>
           Schedule a machine walkthrough
         </a>
-        
-        <Footer />
       </div>
     </section>
   );
