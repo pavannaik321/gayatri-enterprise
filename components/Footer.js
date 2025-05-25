@@ -39,7 +39,7 @@ export default function Footer() {
     {/* Contact */}
     <div>
       <h4 className="text-lg font-semibold mb-4 text-red-500">Get in Touch</h4>
-      <p className="text-sm text-black mb-2">123 Banglore, Karnataka</p>
+      <p className="text-sm text-black mb-2">Bangalore - 560047</p>
       <p className="text-sm text-black mb-2">Email: gayataryenterprise@gmail.com</p>
       <p className="text-sm text-black">Phone: +91 9113909285</p>
 

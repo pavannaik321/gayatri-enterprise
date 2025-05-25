@@ -12,8 +12,11 @@ export default function Herosection() {
         From business cards to banners, we deliver vibrant, high-quality prints to help you stand out.
       </p>
       <div className="flex space-x-4">
-      <button className="bg-red-500 hover:bg-red-600 text-white rounded-full px-6 py-3">
-      Get a Quote
+      <button
+      //add path
+      onClick={() => window.location.href = '/contact'}
+       className="bg-red-500 hover:bg-red-600 text-white rounded-full px-6 py-3">
+      Contact Us
 </button>
 
 

@@ -250,8 +250,8 @@ export default function servicepage() {
           ))}
         </div>
 
-       <Footer/>
       </div>
+       <Footer/>
     </div>
   );
 }
