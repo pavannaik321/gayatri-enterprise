@@ -36,7 +36,7 @@ export default function HighlightsSection() {
 
       {/* Right Side - Features */}
 <div className="w-full md:w-2/3 px-8 py-12 text-[#1F3A34]">
-  <h2 className="text-4xl md:text-4xl font-extrabold mb-20">
+  <h2 className="text-4xl md:text-4xl font-bold mb-20">
     Finally, a place for<br />
     <span className="text-red-500">all your printing needs.</span>
   </h2>
@@ -44,27 +44,22 @@ export default function HighlightsSection() {
     {/* Card 1 */}
     <div className="text-center">
       <Image width={200} height={100} src="/services/wedding2.avif" alt="Branches" className="rounded-lg mb-2 border-2 border-red-500 p-1" />
-      <h4 className="text-lg font-semibold">JP Nagar</h4>
-      <p className="text-sm text-gray-600">near bus stand.</p>
+      <h4 className="text-lg font-semibold">Gayatri Enterprise</h4>
+      <p className="text-sm text-gray-600">Ejipura, Bengaluru.</p>
     </div>
     {/* Card 2 */}
     <div className="text-center">
       <Image width={200} height={100} src="/services/wedding2.avif" alt="Offset Printing" className="rounded-lg mb-2 border-2 border-red-500 p-1" />
-      <h4 className="text-lg font-semibold">JP Nagar</h4>
-      <p className="text-sm text-gray-600">near bus stand.</p>
+      <h4 className="text-lg font-semibold">A to Z Copy Center</h4>
+      <p className="text-sm text-gray-600">Electronic City, Bengaluru.</p>
     </div>
     {/* Card 3 */}
     <div className="text-center">
       <Image width={200} height={100} src="/services/wedding2.avif" alt="Delivery" className="rounded-lg mb-2 border-2 border-red-500 p-1" />
-      <h4 className="text-lg font-semibold">JP Nagar</h4>
-      <p className="text-sm text-gray-600">near bus stand.</p>
+      <h4 className="text-lg font-semibold">Shivam Computer Stationery</h4>
+      <p className="text-sm text-gray-600">Kodihalli, Bengaluru.</p>
     </div>
-    {/* Card 4 */}
-    <div className="text-center">
-      <Image width={200} height={100} src="/services/wedding2.avif" alt="Tech" className="rounded-lg mb-2 border-2 border-red-500 p-1" />
-       <h4 className="text-lg font-semibold">JP Nagar</h4>
-      <p className="text-sm text-gray-600">near bus stand.</p>
-    </div>
+
   </div>
 </div>
 

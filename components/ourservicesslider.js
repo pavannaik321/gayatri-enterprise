@@ -79,7 +79,7 @@ export default function OurServiceSlider() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
           <div>
             <p className="text-red-500 font-semibold mb-2">Testimonials</p>
-            <h2 className="text-4xl font-extrabold leading-snug">
+            <h2 className="text-4xl font-bold leading-snug">
               What our clients say about <br /> our print solutions
             </h2>
           </div>

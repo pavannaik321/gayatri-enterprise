@@ -56,6 +56,7 @@ export default function Contact() {
                 Bangalore - 560047
               </p>
             </div>
+            
 
             <div>
               <h2 className="text-xl font-semibold mb-2 text-[#34495e]">📞 Phone</h2>
@@ -100,6 +101,52 @@ export default function Contact() {
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4517336621707!2d77.62532117546012!3d12.942920387369911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae159722692247%3A0xe4cd25fbf9f79a7e!2sGAYATRI%20ENTERPRISE!5e0!3m2!1sen!2sin!4v1748154522079!5m2!1sen!2sin">
 </iframe>
           </div>
+
+         
+          </motion.div>
+
+          <motion.div
+            className="mt-12 rounded-xl overflow-hidden shadow-lg"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.8, duration: 0.6 }}
+          >
+            {/* Google Map */}
+          <div className="shadow-lg rounded-lg overflow-hidden border border-gray-200">
+          <iframe
+  width="100%"
+  height="100%"
+  style={{ minHeight: "300px", border: "0" }}
+  loading="lazy"
+  allowFullScreen
+  referrerPolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1749208878164!2d77.6460209!3d12.960656300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1405b6ba45cb%3A0xbcca6eccee4ae61a!2sShivam%20Computers%20Stationery!5e0!3m2!1sen!2sin!4v1748434302952!5m2!1sen!2sin">
+</iframe>
+          </div>
+
+         
+          </motion.div>
+
+          <motion.div
+            className="mt-12 rounded-xl overflow-hidden shadow-lg"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.8, duration: 0.6 }}
+          >
+            {/* Google Map */}
+          <div className="shadow-lg rounded-lg overflow-hidden border border-gray-200">
+          <iframe
+  width="100%"
+  height="100%"
+  style={{ minHeight: "300px", border: "0" }}
+  loading="lazy"
+  allowFullScreen
+  referrerPolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.980812779021!2d77.6656338!3d12.844515699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c8f8e96a417%3A0xa5e07c691fefdcce!2sA%20TO%20Z%20COPY%20CENTER%20(%20Printing%20and%20Binding)!5e0!3m2!1sen!2sin!4v1748432759062!5m2!1sen!2sin">
+</iframe>
+          </div>
+
+         
           </motion.div>
 
           <motion.div
@@ -118,3 +165,5 @@ export default function Contact() {
     </div>
   );
 }
+
+

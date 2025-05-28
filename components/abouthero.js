@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function ResortShowcase() {
   return (
     <div className="bg-white py-16 px-6 text-center">
-      <h2 className="text-3xl md:text-4xl font-extrabold text-[#1B2E1C] mb-12">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#1B2E1C] mb-12">
         We Promise Service that Leaves <br /> Nothing to Ask for
       </h2>
       <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6">

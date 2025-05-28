@@ -77,7 +77,7 @@ export default function Home() {
 <section class="bg-red-100 rounded-[48px] py-16 px-6 sm:px-10 lg:px-20">
   <div class="max-w-7xl mx-auto text-center">
     <p class="text-sm font-semibold text-red-500 mb-2">OUR MACHINERY IN ACTION</p>
-    <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
       Trusted equipment powering top-tier print results
     </h2>
     <p class="text-gray-600 max-w-3xl mx-auto mb-12">

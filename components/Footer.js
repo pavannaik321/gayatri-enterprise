@@ -7,7 +7,7 @@ export default function Footer() {
   <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
     {/* Brand */}
     <div>
-      <h3 className="text-2xl font-extrabold text-red-500 mb-3">Gayatary Enterprise</h3>
+      <h3 className="text-2xl font-bold text-red-500 mb-3">Gayatri Enterprise</h3>
       <p className="text-sm text-black">
         Delivering premium print solutions for businesses, events, and creatives.
         Delivering premium print solutions for businesses, events, and creatives.
@@ -18,10 +18,11 @@ export default function Footer() {
     <div>
       <h4 className="text-lg font-semibold mb-4 text-red-500">Services</h4>
       <ul className="space-y-2 text-sm text-black">
-        <li><a href="#" className="hover:text-white transition">Business Cards</a></li>
-        <li><a href="#" className="hover:text-white transition">Flyers & Brochures</a></li>
-        <li><a href="#" className="hover:text-white transition">Wedding Invites</a></li>
-        <li><a href="#" className="hover:text-white transition">T-Shirt Printing</a></li>
+        <li><a href="#" className="hover:text-white transition">Digital Printing</a></li>
+        <li><a href="#" className="hover:text-white transition">Offset Printing</a></li>
+        <li><a href="#" className="hover:text-white transition">Corporate Gifting</a></li>
+        <li><a href="#" className="hover:text-white transition">Binding Works</a></li>
+        <li><a href="#" className="hover:text-white transition">Branding</a></li>
       </ul>
     </div>
 
@@ -39,9 +40,8 @@ export default function Footer() {
     {/* Contact */}
     <div>
       <h4 className="text-lg font-semibold mb-4 text-red-500">Get in Touch</h4>
-      <p className="text-sm text-black mb-2">Bangalore - 560047</p>
-      <p className="text-sm text-black mb-2">Email: gayataryenterprise@gmail.com</p>
-      <p className="text-sm text-black">Phone: +91 9113909285</p>
+      <p className="text-sm text-black mb-2">Email: sales.gayatrienterprise26@gmail.com</p>
+      <p className="text-sm text-black">Phone: +91 9833782857 | 7676491757</p>
 
       {/* Social Icons */}
       <div className="flex gap-4 mt-4">
