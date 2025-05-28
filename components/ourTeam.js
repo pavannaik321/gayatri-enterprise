@@ -7,28 +7,25 @@ export default function OurTeam() {
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
     {/* Member 1 */}
     <div className="rounded-[32px] bg-white shadow-[0px_0px_20px_rgba(0,0,0,0.1)] text-center p-6">
-      <img src="/services/ALPESH VAVIYA.jpeg" alt="Alpesh Vaviya" className="w-24 h-24 mx-auto rounded-full mb-4 object-cover" />
+      <img src="/test.jpeg" alt="Alpesh Vaviya" className="w-24 h-24 mx-auto rounded-full mb-4 object-cover" />
       <h4 className="text-lg font-semibold">Alpesh Vaviya</h4>
-      <p className="text-sm text-gray-600">Digital Strategist</p>
+
     </div>
     {/* Member 2 */}
     <div className="rounded-[32px] bg-white shadow-[0px_0px_20px_rgba(0,0,0,0.1)] text-center p-6">
-      <img src="/services/dhruvin vaviya.jpg" alt="Dhruvin Vaviya" className="w-24 h-24 mx-auto rounded-full mb-4 object-cover" />
+      <img src="/test.jpeg" alt="Dhruvin Vaviya" className="w-24 h-24 mx-auto rounded-full mb-4 object-cover" />
       <h4 className="text-lg font-semibold">Dhruvin Vaviya</h4>
-      <p className="text-sm text-gray-600">Managing Director</p>
-    </div>
+      </div>
     {/* Member 3 */}
     <div className="rounded-[32px] bg-white shadow-[0px_0px_20px_rgba(0,0,0,0.1)] text-center p-6">
-      <img src="/services/DIPAK DEVDA.jpeg" alt="Dipak Devda" className="w-24 h-24 mx-auto rounded-full mb-4 object-cover" />
+      <img src="/test.jpeg" alt="Dipak Devda" className="w-24 h-24 mx-auto rounded-full mb-4 object-cover" />
       <h4 className="text-lg font-semibold">Dipak Devda</h4>
-      <p className="text-sm text-gray-600">Director of Operations + Analytics</p>
-    </div>
+      </div>
     {/* Member 4 */}
     <div className="rounded-[32px] bg-white shadow-[0px_0px_20px_rgba(0,0,0,0.1)] text-center p-6">
-      <img src="/services/kuldeep jadeja.jpg" alt="Kuldeep Jadeja" className="w-24 h-24 mx-auto rounded-full mb-4 object-cover" />
+      <img src="/test.jpeg" alt="Kuldeep Jadeja" className="w-24 h-24 mx-auto rounded-full mb-4 object-cover" />
       <h4 className="text-lg font-semibold">Kuldeep Jadeja</h4>
-      <p className="text-sm text-gray-600">Digital Strategist</p>
-    </div>
+      </div>
   </div>
 </div>
 
