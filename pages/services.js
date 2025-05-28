@@ -18,22 +18,22 @@ const services = [
   },
   {
     name: 'Flyers & Brochures',
-    image: '/services/brochures2.avif',
+    image: '/services/BROCHURES.jpg',
     minQty: 'Minimum order: 100 flyers',
   },
   {
     name: 'Poster Printing',
-    image: '/services/poster.webp',
+    image: '/services/poster.jpg',
     minQty: 'Minimum order: 10 posters',
   },
   {
     name: 'T-Shirt Printing',
-    image: '/services/tshirt.jpg',
+    image: '/services/T-SHIRT.jpg',
     minQty: 'Minimum order: 5 T-shirts',
   },
   {
     name: 'Sticker & Label Printing',
-    image: '/services/sticker3.jpg',
+    image: '/services/images.jpg',
     minQty: 'Minimum order: 200 labels',
   },
   // New services added here

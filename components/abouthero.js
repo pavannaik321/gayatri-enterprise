@@ -18,7 +18,7 @@ export default function ResortShowcase() {
         </div>
         <div className="w-36 md:w-64 rounded-xl overflow-hidden">
           <Image
-            src="/services/sticker3.jpg"
+            src="/services/images.jpg"
             alt="Poolside Food"
             width={300}
             height={300}
@@ -36,7 +36,7 @@ export default function ResortShowcase() {
         </div>
         <div className="w-36 md:w-64 rounded-xl overflow-hidden">
           <Image
-            src="/services/sticker3.jpg"
+            src="/services/images.jpg"
             alt="Sunset Hut"
             width={300}
             height={300}
