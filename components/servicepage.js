@@ -3,36 +3,14 @@ import Image from 'next/image';
 import React from 'react';
 
 const services = [
-  {
-    name: 'Business Card Printing',
-    image: '/services/business3.avif',
-    minQty: 'Minimum order: 100 cards',
-  },
-  {
-    name: 'Wedding Invitation Printing',
-    image: '/services/wedding2.avif',
-    minQty: 'Minimum order: 50 cards',
-  },
+
   {
     name: 'Flyers & Brochures',
     image: '/services/BROCHURES.jpg',
     minQty: 'Minimum order: 100 flyers',
   },
-  {
-    name: 'Poster Printing',
-    image: '/services/poster.jpg',
-    minQty: 'Minimum order: 10 posters',
-  },
-  {
-    name: 'T-Shirt Printing',
-    image: '/services/T-SHIRT.jpg',
-    minQty: 'Minimum order: 5 T-shirts',
-  },
-  {
-    name: 'Sticker & Label Printing',
-    image: '/services/images.jpg',
-    minQty: 'Minimum order: 200 labels',
-  },
+    
+ 
   // New services added here
   {
     name: 'Wall Calander',

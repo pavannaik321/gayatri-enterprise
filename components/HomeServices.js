@@ -4,40 +4,34 @@ import React from 'react';
 
 const services = [
   {
-    name: 'Business Card Printing',
-    image: '/services/business3.avif',
-    price: '₹500 / 100 pcs',
-    minQty: 'Minimum order: 100 cards',
+    name: 'Tent Card Print',
+    image: '/services/TENT CARD PRINT.jpg',
+    minQty: 'Minimum order: 100 ',
   },
   {
-    name: 'Wedding Invitation Printing',
-    image: '/services/wedding2.avif',
-    price: '₹15 / card',
-    minQty: 'Minimum order: 50 cards',
+    name: 'Photo Print',
+    image: '/services/PHOTO PRINT.jpg',
+    minQty: 'Minimum order: 25',
   },
   {
-    name: 'Flyers & Brochures',
-    image: '/services/BROCHURES.jpg',
-    price: '₹2.5 / page',
-    minQty: 'Minimum order: 100 flyers',
+    name: 'Pamplet',
+    image: '/services/PAMPLET.jpg',
+    minQty: 'Minimum order: 100 ',
   },
   {
-    name: 'Poster Printing',
-    image: '/services/poster.jpg',
-    price: '₹30 / poster',
-    minQty: 'Minimum order: 10 posters',
+    name: 'Neon sign Board',
+    image: '/services/neon-sign-board.jpg',
+    minQty: 'Minimum order: 50 ',
   },
   {
-    name: 'T-Shirt Printing',
-    image: '/services/t-shirt.webp',
-    price: '₹250 / shirt',
-    minQty: 'Minimum order: 5 T-shirts',
+    name: 'Magnetic Rigid Boxes',
+    image: '/services/Magnetic-Rigid-Boxes.jpg',
+    minQty: 'Minimum order: 50 ',
   },
   {
-    name: 'Sticker & Label Printing',
-    image: '/services/images.jpg',
-    price: '₹1.5 / label',
-    minQty: 'Minimum order: 200 labels',
+    name: 'Manual Printing',
+    image: '/services/manual printing.jpg',
+    minQty: 'Minimum order: 100 ',
   },
 ];
 
