@@ -9,7 +9,7 @@ export default function ResortShowcase() {
       <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6">
         <div className="w-20 md:w-48 rounded-xl overflow-hidden">
           <Image
-            src="/services/wedding2.avif"
+            src="/services/10818.jpg"
             alt="Resort 1"
             width={300}
             height={300}
@@ -18,7 +18,7 @@ export default function ResortShowcase() {
         </div>
         <div className="w-36 md:w-64 rounded-xl overflow-hidden">
           <Image
-            src="/services/images.jpg"
+            src="/services/BROCHURES 4 PAGE.jpg"
             alt="Poolside Food"
             width={300}
             height={300}
@@ -27,7 +27,7 @@ export default function ResortShowcase() {
         </div>
         <div className="w-60 md:w-80 rounded-xl overflow-hidden">
           <Image
-            src="/services/business3.avif"
+            src="/services/3516712.jpg"
             alt="Main Deck"
             width={400}
             height={500}
@@ -36,7 +36,7 @@ export default function ResortShowcase() {
         </div>
         <div className="w-36 md:w-64 rounded-xl overflow-hidden">
           <Image
-            src="/services/images.jpg"
+            src="/services/11414757.jpg"
             alt="Sunset Hut"
             width={300}
             height={300}
@@ -45,7 +45,7 @@ export default function ResortShowcase() {
         </div>
         <div className="w-20 md:w-48 rounded-xl overflow-hidden">
           <Image
-            src="/services/wedding2.avif"
+            src="/services/VISIITNG CARD2.jpg"
             alt="Hotel Grounds"
             width={300}
             height={300}

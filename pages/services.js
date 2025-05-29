@@ -18,7 +18,7 @@ const services = [
   },
   {
     name: 'Flyers & Brochures',
-    image: '/services/BROCHURES.avif',
+    image: '/services/BROCHURES.jpg',
     minQty: 'Minimum order: 100 flyers',
   },
   {
@@ -69,7 +69,7 @@ const services = [
   },
   {
     name: 'Brochures Printing',
-    image: '/services/BROCHURES.jpg',
+    image: '/services/BROCHURES 4 PAGE.jpg',
     minQty: 'Minimum order: 200 ',
   },
   {
@@ -124,7 +124,7 @@ const services = [
   },
   {
     name: 'Key Chain',
-    image: '/services/Key chain.jpg',
+    image: '/services/key chain.jpg',
     minQty: 'Minimum order: 50 ',
   },
   {
