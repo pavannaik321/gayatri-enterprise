@@ -15,7 +15,7 @@ const services = [
   },
   {
     name: 'Flyers & Brochures',
-    image: '/services/brochures2.avif',
+    image: '/services/BROUCHERS.avif',
     minQty: 'Minimum order: 100 flyers',
   },
   {
