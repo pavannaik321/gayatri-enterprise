@@ -81,7 +81,7 @@ const services = [
   },
   {
     name: 'Cartons',
-    image: '/services/Cartons.jpg',
+    image: '/services/cartons.jpg',
     minQty: 'Minimum order: 20 sq ft',
   },
   {
