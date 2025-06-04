@@ -268,30 +268,31 @@ export default function servicepage() {
       <div className="max-w-7xl mx-auto"></div>
         <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
           {services.map((service, idx) => (
-            <div
-              key={idx}
-              className="bg-white rounded-xl shadow-lg overflow-hidden transition-transform hover:scale-105"
-            >
-              {/* Image */}
-              <div className="p-4">
-                <div className="rounded-xl overflow-hidden">
-                  <Image
-                    src={service.image}
-                    alt={service.name}
-                    width={500}
-                    height={300}
-                    className="object-cover w-full h-48"
-                  />
-                </div>
-              </div>
+<div
+  key={idx}
+  className="bg-white rounded-xl shadow-lg overflow-hidden transition-transform hover:scale-105"
+>
+  {/* Image */}
+  <div className="p-4">
+    <div className="rounded-xl overflow-hidden">
+      <Image
+        src={service.image}
+        alt={service.name}
+        width={400}
+        height={500}
+        className="object-cover w-full h-64" // 👈 increased height
+      />
+    </div>
+  </div>
 
-              {/* Content */}
-              <div className="px-6 pb-6 text-start">
-                <h3 className="text-xl font-bold text-red-500 mb-2">{service.name}</h3>
-                <p className="text-lg font-semibold text-gray-800 mb-1">{service.price}</p>
-                <p className="text-sm text-gray-600">{service.minQty}</p>
-              </div>
-            </div>
+  {/* Content */}
+  <div className="px-6 pb-6 text-start">
+    <h3 className="text-xl font-bold text-red-500 mb-2">{service.name}</h3>
+    <p className="text-lg font-semibold text-gray-800 mb-1">{service.price}</p>
+    <p className="text-sm text-gray-600">{service.minQty}</p>
+  </div>
+</div>
+
           ))}
         </div>
 

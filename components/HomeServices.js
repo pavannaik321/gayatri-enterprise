@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const services = [
@@ -38,7 +39,7 @@ const services = [
 export default function Homeservices() {
   return (
     <section className="py-20 px-4 bg-red-100 rounded-[48px] text-gray-900">
-      <div className="max-w-7xl mx-auto text-center mb-12 bg-white p-4">
+      <div className="max-w-7xl mx-auto text-center mb-12 bg-white p-4 rounded-lg">
         <p className="text-red-500 font-semibold mb-2">Our Services</p>
         <h2 className="text-4xl font-bold" >Top Print Solutions We Offer</h2>
       </div>
@@ -72,15 +73,15 @@ export default function Homeservices() {
 
       {/* Call to Action */}
       <div className="mt-14 text-center">
-        <a
-          href="#demo"
+        <Link
+          href="/services"
           className="inline-flex items-center justify-center px-6 py-3 bg-red-500 text-white rounded-full shadow-lg hover:bg-red-600 transition"
         >
           <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>
-          Schedule a machine walkthrough
-        </a>
+          Schedule a services walkthrough
+        </Link>
       </div>
     </section>
   );

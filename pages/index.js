@@ -6,6 +6,7 @@ import Herosection from '@/components/Herosection';
 import OurServiceSlider from '@/components/ourservicesslider';
 import Homeservices from '@/components/HomeServices';
 import Footer from '@/components/Footer';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -88,8 +89,8 @@ export default function Home() {
 
 
       <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
-        <img src="/svg/img1.png" alt="Offset Printing Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Offset Printing Machine</h3>
+        <img src="/machine/digital_printing.jpg" alt="Offset Printing Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Digital printing Machine</h3>
         <p class="text-sm text-gray-600">
           Ideal for high-volume jobs like books and brochures, delivering sharp, vibrant prints at scale.
         </p>
@@ -97,8 +98,8 @@ export default function Home() {
 
 
       <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
-        <img src="/svg/img2.png" alt="Laser Printer" class="rounded-xl mb-4 object-cover w-full h-40" />
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Laser Printing Unit</h3>
+      <img src="/machine/harf cuting machine.jpg" alt="Offset Printing Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Harf Cutting Machine</h3>
         <p class="text-sm text-gray-600">
           High-speed laser printing for corporate materials like flyers, handouts, and presentations.
         </p>
@@ -106,8 +107,8 @@ export default function Home() {
 
 
       <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
-        <img src="/svg/img3.png" alt="UV Coating Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">UV Coating System</h3>
+      <img src="/machine/digital_printing.jpg" alt="Offset Printing Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Digital printing Machine</h3>
         <p class="text-sm text-gray-600">
           Enhances print durability with a glossy or matte finish—perfect for business cards and covers.
         </p>
@@ -115,8 +116,8 @@ export default function Home() {
 
 
       <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
-        <img src="/svg/img4.png" alt="Large Format Printer" class="rounded-xl mb-4 object-cover w-full h-40" />
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Large Format Printer</h3>
+        <img src="/machine/lamination.jpg" alt="Offset Printing Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Lamination Machine</h3>
         <p class="text-sm text-gray-600">
           Prints banners, posters, and signage with exceptional clarity and outdoor durability.
         </p>
@@ -124,8 +125,8 @@ export default function Home() {
 
 
       <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
-        <img src="/svg/img5.png" alt="Binding Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Perfect Binding Machine</h3>
+        <img src="/machine/offset.jpg" alt="Offset Printing Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Offset Machine</h3>
         <p class="text-sm text-gray-600">
           Used for finishing booklets, reports, and manuals with a clean, professional spine.
         </p>
@@ -133,8 +134,29 @@ export default function Home() {
 
 
       <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
-        <img src="/svg/img6.png" alt="Automated Cutting Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Precision Cutting Machine</h3>
+        <img src="/machine/parfect_binding.png" alt="Offset Printing Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Parfect binding Machine</h3>
+        <p class="text-sm text-gray-600">
+          Ensures clean edges and accurate trimming for cards, leaflets, and custom die-cut prints.
+        </p>
+      </div>
+      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
+        <img src="/machine/photo_print.jpg" alt="Offset Printing Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Photo Printing Machine</h3>
+        <p class="text-sm text-gray-600">
+          Ensures clean edges and accurate trimming for cards, leaflets, and custom die-cut prints.
+        </p>
+      </div>
+      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
+        <img src="/machine/vinyl_print.jpg" alt="Offset Printing Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Vinyl Printing Machine</h3>
+        <p class="text-sm text-gray-600">
+          Ensures clean edges and accurate trimming for cards, leaflets, and custom die-cut prints.
+        </p>
+      </div>
+      <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col items-start text-left transition-transform transform  hover:scale-105">
+        <img src="/machine/digital_printing2.jpg" alt="Offset Printing Machine" class="rounded-xl mb-4 object-cover w-full h-40" />
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Digital Printing Machine</h3>
         <p class="text-sm text-gray-600">
           Ensures clean edges and accurate trimming for cards, leaflets, and custom die-cut prints.
         </p>
@@ -142,12 +164,12 @@ export default function Home() {
     </div>
 
     <div class="mt-12">
-      <a href="#demo" class="inline-flex items-center justify-center px-6 py-3 bg-red-500 text-white rounded-full shadow-lg transition">
+      <Link href="/services" class="inline-flex items-center justify-center px-6 py-3 bg-red-500 text-white rounded-full shadow-lg transition">
         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
           <path d="M17 8l4 4m0 0l-4 4m4-4H3" />
         </svg>
-        Schedule a machine walkthrough
-      </a>
+        Schedule a service walkthrough
+      </Link>
     </div>
   </div>
 </section>
